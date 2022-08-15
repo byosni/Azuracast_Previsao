@@ -1,6 +1,6 @@
 <h1>Previsão do Tempo em Áudio Para RádioWeb </h1>
 
-Script para baixar áudio da previosao do tempo do site agenciabrasil.ebc.com.br<br> 
+Script para baixar áudio da previsão do tempo do site agenciabrasil.ebc.com.br<br> 
 Lembrar de colocar o index.php dentro de um servidor que rode o php.<br>
 
 <h2>Criar uma Pasta: /root/previsao_tempo em seu servidor com AzuraCast.</h2>
