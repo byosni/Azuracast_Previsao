@@ -2,7 +2,10 @@
 //# Previsao do tempo em audio - Osni (radio DuBalacoBaco);
 //# tras todas as tags <a href> do site de audios. 
 
-$curl = curl_init('https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2022-08/');
+//pegar a data de hoje
+$data = date('y-m');
+
+$curl = curl_init('https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/$data/');
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
 $page = curl_exec($curl);
 if(curl_errno($curl)):
